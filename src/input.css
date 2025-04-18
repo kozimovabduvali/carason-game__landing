@@ -1,15 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Onest:wght@100..900&display=swap');
+
 @import "tailwindcss";
 
 
 @theme {
   /* Fonts */
   --font-gilory: 'Gilroy';
+  --font-onest: 'Onest';
   /* Colors */
   --color-primary: #0B090E;
   --color-brand-red: #C00B29;
-  --color-brand-gray-200: #3849D0 ;
+  --color-brand-gray-200: #3849D0;
   /* shadow */
-  --shadow-custom-3xl: 0px 0px 30px 3px ;
+  --shadow-custom-3xl: 0px 0px 30px 3px;
   --shadow-custom-4xl: 0px 0px 30px 6px #3849D0;
 }
 
@@ -22,6 +25,7 @@
   body {
     @apply bg-primary
   }
+
   button {
     @apply cursor-pointer
   }
