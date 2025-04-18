@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+
+@theme {
+  /* Fonts */
+  --font-gilory: 'Gilroy';
+  /* Colors */
+  --color-primary: #0B090E;
+}
+
+
+@layer base {
+  html {
+    @apply scroll-smooth
+  }
+
+  body {
+    @apply bg-primary
+  }
+}
+
+
+.custom-drob-shadow {
+  box-shadow: 0px 0px 8px 1px #C00B29CC;
+
+}
