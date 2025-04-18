@@ -249,6 +249,9 @@
   .bg-cover {
     background-size: cover;
   }
+  .bg-scroll {
+    background-attachment: scroll;
+  }
   .bg-center {
     background-position: center;
   }
