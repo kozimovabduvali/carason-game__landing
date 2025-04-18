@@ -313,7 +313,7 @@
       </div>
 
       <!-- Slider -->
-      <div class="w-full max-w-298 overflow-hidden mt-10 md:mt-0">
+      <div class="w-full max-w-298 overflow-hidden mt-10 md:mt-0 -mx-5 md:mx-0">
         <div class="swiper mySwiper !overflow-hidden">
           <div class="swiper-wrapper">
             <div class="swiper-slide">
@@ -598,14 +598,25 @@
     <!-- Initialize Swiper -->
     <script>
       var swiper = new Swiper(".mySwiper", {
-        slidesPerView: 3,
         spaceBetween: 200,
         freeMode: true,
         pagination: {
           el: ".swiper-pagination",
           clickable: true,
         },
+        breakpoints: {
+          0: {
+            slidesPerView: 2.6,
+          },
+          768: {
+            slidesPerView: 3.5,
+          },
+          1024: {
+            slidesPerView: 5,
+          }
+        }
       });
+
     </script>
 </body>
 
